@@ -1,3 +1,17 @@
 body {
   background: deepskyblue;
+  margin: 0;
+}
+h1 {
+  margin-top: 0;
+}
+
+.container-title {
+  background: deepskyblue;
+  border: 1px solid #05dfd7;
+  text-align: center;
+}
+
+.cloud-top {
+  text-align: center;
 }
