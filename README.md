@@ -1,5 +1,5 @@
 # portfolio-html-css
-
+In order to gain experience in web dev i started by HTML/CSS make projects
 ## Training HTML/CSS
 ## HTML:
  **1. project: creating a portfolio with HTML**
