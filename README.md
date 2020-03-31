@@ -3,7 +3,7 @@
 ## Training HTML/CSS
 ## HTML:
  **1. project: creating a portfolio with HTML**
- ![project-cv1](https://user-images.githubusercontent.com/40898323/78051217-45583d00-7375-11ea-90f0-3e68c8c6a402.png)
+ ![cvHtml](https://user-images.githubusercontent.com/40898323/78051387-82bcca80-7375-11ea-9837-ca663e7e96c6.png)
 
 ## HTML-CSS:
  **1. project: Style the portfolio**
