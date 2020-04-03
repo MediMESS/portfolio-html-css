@@ -17,7 +17,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
 }
 
-.container-title {
+.top-container {
   margin: 0;
   background: deepskyblue;
   border: 1px solid #05dfd7;
@@ -34,16 +34,12 @@ h3 {
 .cloud-top-left {
   margin-right: 200px;
 }
-.profile-title {
-}
 .volcano {
   height: 100%;
   /* background-color: rgba(0, 191, 255, 0.548); */
 }
-.river {
-}
 .landscape {
   height: 60vh;
-  background: url(resources/IMGBIN_green-mountain-png_jzYg1xmj.png) left top;
+  background: url(resources/top-container/mountains.png) left top;
   background-size: cover;
 }
