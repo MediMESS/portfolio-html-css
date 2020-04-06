@@ -1,0 +1,172 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Merriweather", "serif";
+  color: #40514e;
+}
+h1 {
+  margin: 50px 0 0 0;
+  font-size: 4rem;
+  color: orangered;
+  font-family: "Sacramento", cursive;
+}
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h3,
+a {
+  font-weight: 1000;
+  color: #11999e;
+}
+p {
+  line-height: 2;
+}
+hr {
+  width: 5rem;
+  margin: 100px auto;
+  border: 5px dashed #eaf6f6;
+}
+/* Top Container */
+.top-container {
+  margin: 0;
+  background: lightskyblue;
+  border: 1px solid #05dfd7;
+  text-align: center;
+  padding-top: 60px;
+}
+.clouds {
+  margin: 0;
+}
+.cloud-top-right {
+  margin-left: 200px;
+}
+.cloud-top-left {
+  margin-right: 200px;
+}
+.volcano {
+  height: 100%;
+}
+.landscape {
+  height: 60vh;
+  background: url(resources/top-container/mountains.png) left top;
+  background-size: cover;
+}
+
+/* Middle Container */
+.middle-container,
+.bottom-container {
+  text-align: center;
+}
+
+/* Profile */
+.profile p {
+  width: 30%;
+  margin: 30px auto;
+}
+.profile-line {
+  color: whitesmoke;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  background-color: lightskyblue;
+}
+
+/* Skills */
+.skills-img:hover {
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+.skill-row,
+.contact-me {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-row > img {
+  width: 12rem;
+  height: 12rem;
+  margin: 30px;
+  border-radius: 50%;
+}
+.skill-row:nth-of-type(2n + 1) > img {
+  float: left;
+}
+.skill-row:nth-of-type(2n) > img {
+  float: right;
+}
+
+/* Contact me */
+.contact-me {
+  width: 50%;
+  text-align: center;
+}
+.contact-me p {
+  margin-bottom: 60px;
+}
+
+.btn {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #11cdd4),
+    color-stop(1, #11999e)
+  );
+  background: -moz-linear-gradient(center top, #11cdd4 5%, #11999e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#11cdd4', endColorstr='#11999e');
+  background-color: #11cdd4;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  border-top-left-radius: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  border-top-right-radius: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  border-bottom-left-radius: 15px;
+  text-indent: 0;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Montserrat";
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+.btn:hover {
+  background: #05dfd7;
+}
+/* Bottom Container */
+.bottom-container {
+  background-color: #66bfbf;
+  color: white;
+  margin-top: 100px;
+  padding: 30px;
+}
+.bottom-container a {
+  margin-right: 25px;
+}
+.bottom-container p {
+  margin: 20px auto 0 auto;
+}
