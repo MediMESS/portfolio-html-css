@@ -4,13 +4,13 @@ body {
   padding: 0;
 }
 body {
-  background: deepskyblue;
   font-family: "Merriweather", "serif";
 }
 
 h1 {
-  margin-top: 50px;
+  margin: 50px 0 0 0;
   font-size: 5rem;
+  color: orangered;
   font-family: "Sacramento", cursive;
 }
 h2,
@@ -18,9 +18,23 @@ h3 {
   font-family: "Montserrat", sans-serif;
 }
 
+h2 {
+  color: #66bfbf;
+  font-size: 3rem;
+}
+h3,
+a {
+  color: darkorange;
+}
+.profile-line {
+  color: whitesmoke;
+}
+.profile-line {
+  font-size: 1.5rem;
+}
 .top-container {
   margin: 0;
-  background: deepskyblue;
+  background: lightskyblue;
   border: 1px solid #05dfd7;
   text-align: center;
   padding-top: 60px;
@@ -37,7 +51,6 @@ h3 {
 }
 .volcano {
   height: 100%;
-  /* background-color: rgba(0, 191, 255, 0.548); */
 }
 .landscape {
   height: 60vh;
@@ -58,4 +71,21 @@ h3 {
 .skills-img:hover {
   background-color: lightskyblue;
   cursor: pointer;
+}
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row > img {
+  width: 25%;
+  margin: 30px 30px 0 0;
+}
+.skill-row:nth-of-type(2n + 1) > img {
+  float: left;
+}
+.skill-row:nth-of-type(2n) > img {
+  float: right;
 }
